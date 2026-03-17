@@ -42,9 +42,9 @@
         theme: {
           extend: {
             colors: {
-              brandRed: "#c1121f",
+              brandRed: "#1d4ed8",
               brandWhite: "#ffffff",
-              softRed: "#fdf0f2",
+              softRed: "#eff6ff",
             },
             animation: {
               'float': 'float 3s ease-in-out infinite',
@@ -72,7 +72,7 @@
       
       .bg-pattern {
         background-color: #ffffff;
-        background-image: radial-gradient(#c1121f 0.5px, transparent 0.5px);
+        background-image: radial-gradient(#1d4ed8 0.5px, transparent 0.5px);
         background-size: 24px 24px;
         opacity: 0.05;
       }
@@ -83,12 +83,12 @@
       }
       .card-hover:hover {
         transform: translateY(-10px);
-        border-color: #c1121f;
+        border-color: #1d4ed8;
         box-shadow: 0 20px 25px -5px rgba(193, 18, 31, 0.1);
       }
 
       .btn-primary {
-        @apply bg-brandRed text-white px-8 py-4 rounded-full font-bold transition-all duration-300 hover:bg-red-700 hover:shadow-lg active:scale-95;
+        @apply bg-brandRed text-white px-8 py-4 rounded-full font-bold transition-all duration-300 hover:bg-blue-700 hover:shadow-lg active:scale-95;
       }
       .btn-secondary {
         @apply border-2 border-brandRed text-brandRed px-8 py-4 rounded-full font-bold transition-all duration-300 hover:bg-brandRed hover:text-white active:scale-95;
@@ -99,7 +99,7 @@
     </style>
   </head>
   <body class="bg-white text-slate-900">
-    <div id="siteHeader"></div>
+    <header id="siteHeader"></header>
     <script src="navbar.js"></script>
 
     <main class="relative">
@@ -111,7 +111,7 @@
           <div class="lg:grid lg:grid-cols-12 lg:gap-16 items-center">
             <div class="lg:col-span-7 text-center lg:text-left">
               <div data-aos="fade-down" data-aos-duration="1000">
-                <span class="inline-flex items-center rounded-full bg-red-50 border border-red-100 px-4 py-1.5 text-sm font-bold text-brandRed mb-8">
+                <span class="inline-flex items-center rounded-full bg-blue-50 border border-blue-100 px-4 py-1.5 text-sm font-bold text-brandRed mb-8">
                   <i class="fa-solid fa-fire-flame-curved mr-2"></i> Leading Career Catalyst in Tirupati
                 </span>
               </div>
@@ -119,7 +119,7 @@
                 Unlock Your Potential <br/>
                 <span class="text-brandRed relative">
                   In IT & Non-IT Careers
-                  <svg class="absolute -bottom-2 left-0 w-full h-3 text-red-200" viewBox="0 0 300 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg class="absolute -bottom-2 left-0 w-full h-3 text-blue-200" viewBox="0 0 300 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1 10C50 3 150 3 299 10" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
                   </svg>
                 </span>
@@ -128,7 +128,7 @@
                 Success Consultancy and Services provides real-world corporate training and dedicated placement support to help you land your dream job at top MNCs.
               </p>
               <div class="flex flex-wrap justify-center lg:justify-start gap-4 mb-12" data-aos="fade-up" data-aos-delay="600">
-                <a href="tel:9866634443" class="bg-brandRed text-white px-10 py-5 rounded-full font-bold shadow-xl shadow-red-200 hover:bg-red-700 transition-all duration-300 hover:-translate-y-1 flex items-center">
+                <a href="tel:9866634443" class="bg-brandRed text-white px-10 py-5 rounded-full font-bold shadow-xl shadow-blue-200 hover:bg-blue-700 transition-all duration-300 hover:-translate-y-1 flex items-center">
                   Start Training <i class="fa-solid fa-arrow-right ml-3 text-sm"></i>
                 </a>
                 <a href="https://wa.me/919502504742" target="_blank" class="border-2 border-brandRed text-brandRed px-10 py-5 rounded-full font-bold hover:bg-brandRed hover:text-white transition-all duration-300 hover:-translate-y-1 flex items-center">
@@ -153,8 +153,8 @@
               <div class="relative z-10 animate-float">
                 <img src="Coding workshop-bro.svg" alt="Training Illustration" class="w-full h-auto drop-shadow-2xl" />
               </div>
-              <div class="absolute -top-10 -right-10 w-72 h-72 bg-red-50 rounded-full blur-3xl -z-0"></div>
-              <div class="absolute -bottom-20 -left-20 w-56 h-56 bg-red-100/50 rounded-full blur-2xl -z-0"></div>
+              <div class="absolute -top-10 -right-10 w-72 h-72 bg-blue-50 rounded-full blur-3xl -z-0"></div>
+              <div class="absolute -bottom-20 -left-20 w-56 h-56 bg-blue-100/50 rounded-full blur-2xl -z-0"></div>
             </div>
           </div>
         </div>
@@ -179,12 +179,12 @@
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div class="text-center mb-20" data-aos="fade-up">
             <h2 class="text-brandRed font-bold uppercase tracking-widest text-sm mb-4">Why Success Consultancy</h2>
-            <h3 class="text-4xl md:text-5xl font-black text-slate-900">Built for Your Professional <span class="bg-red-50 px-2">Growth</span></h3>
+            <h3 class="text-4xl md:text-5xl font-black text-slate-900">Built for Your Professional <span class="bg-blue-50 px-2">Growth</span></h3>
           </div>
 
           <div class="grid md:grid-cols-3 gap-10">
             <div class="p-10 rounded-[2.5rem] bg-white border border-slate-100 card-hover" data-aos="fade-up" data-aos-delay="100">
-              <div class="w-16 h-16 bg-red-50 rounded-2xl flex items-center justify-center text-brandRed mb-8 border border-red-100">
+              <div class="w-16 h-16 bg-blue-50 rounded-2xl flex items-center justify-center text-brandRed mb-8 border border-blue-100">
                 <i class="fa-solid fa-graduation-cap text-2xl"></i>
               </div>
               <h4 class="text-2xl font-bold mb-4 text-slate-900">Expert-Led Training</h4>
@@ -192,7 +192,7 @@
             </div>
 
             <div class="p-10 rounded-[2.5rem] bg-white border border-slate-100 card-hover" data-aos="fade-up" data-aos-delay="200">
-              <div class="w-16 h-16 bg-red-50 rounded-2xl flex items-center justify-center text-brandRed mb-8 border border-red-100">
+              <div class="w-16 h-16 bg-blue-50 rounded-2xl flex items-center justify-center text-brandRed mb-8 border border-blue-100">
                 <i class="fa-solid fa-user-check text-2xl"></i>
               </div>
               <h4 class="text-2xl font-bold mb-4 text-slate-900">Mock Interviews</h4>
@@ -200,7 +200,7 @@
             </div>
 
             <div class="p-10 rounded-[2.5rem] bg-white border border-slate-100 card-hover" data-aos="fade-up" data-aos-delay="300">
-              <div class="w-16 h-16 bg-red-50 rounded-2xl flex items-center justify-center text-brandRed mb-8 border border-red-100">
+              <div class="w-16 h-16 bg-blue-50 rounded-2xl flex items-center justify-center text-brandRed mb-8 border border-blue-100">
                 <i class="fa-solid fa-briefcase text-2xl"></i>
               </div>
               <h4 class="text-2xl font-bold mb-4 text-slate-900">Placement Support</h4>
@@ -227,39 +227,39 @@
 
           <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <a href="course-programming.html" class="group p-8 rounded-[2rem] border border-slate-100 bg-white card-hover text-center" data-aos="zoom-in" data-aos-delay="100">
-              <div class="w-16 h-16 bg-red-50 rounded-2xl flex items-center justify-center text-brandRed mx-auto mb-8 transition-all group-hover:bg-brandRed group-hover:text-white group-hover:rotate-6">
+              <div class="w-16 h-16 bg-blue-50 rounded-2xl flex items-center justify-center text-brandRed mx-auto mb-8 transition-all group-hover:bg-brandRed group-hover:text-white group-hover:rotate-6">
                 <i class="fa-solid fa-code text-2xl"></i>
               </div>
               <h5 class="font-bold text-slate-900 mb-3">Programming</h5>
               <p class="text-slate-500 text-sm mb-6">Master Java, Python, and C++ from scratch to advanced.</p>
-              <div class="h-1 w-12 bg-red-100 mx-auto group-hover:w-20 group-hover:bg-brandRed transition-all"></div>
+              <div class="h-1 w-12 bg-blue-100 mx-auto group-hover:w-20 group-hover:bg-brandRed transition-all"></div>
             </a>
 
             <a href="course-web.html" class="group p-8 rounded-[2rem] border border-slate-100 bg-white card-hover text-center" data-aos="zoom-in" data-aos-delay="200">
-              <div class="w-16 h-16 bg-red-50 rounded-2xl flex items-center justify-center text-brandRed mx-auto mb-8 transition-all group-hover:bg-brandRed group-hover:text-white group-hover:rotate-6">
+              <div class="w-16 h-16 bg-blue-50 rounded-2xl flex items-center justify-center text-brandRed mx-auto mb-8 transition-all group-hover:bg-brandRed group-hover:text-white group-hover:rotate-6">
                 <i class="fa-solid fa-laptop-code text-2xl"></i>
               </div>
               <h5 class="font-bold text-slate-900 mb-3">Web Dev</h5>
               <p class="text-slate-500 text-sm mb-6">Build modern and responsive websites using React & JS.</p>
-              <div class="h-1 w-12 bg-red-100 mx-auto group-hover:w-20 group-hover:bg-brandRed transition-all"></div>
+              <div class="h-1 w-12 bg-blue-100 mx-auto group-hover:w-20 group-hover:bg-brandRed transition-all"></div>
             </a>
 
             <a href="course-fullstack.html" class="group p-8 rounded-[2rem] border border-slate-100 bg-white card-hover text-center" data-aos="zoom-in" data-aos-delay="300">
-              <div class="w-16 h-16 bg-red-50 rounded-2xl flex items-center justify-center text-brandRed mx-auto mb-8 transition-all group-hover:bg-brandRed group-hover:text-white group-hover:rotate-6">
+              <div class="w-16 h-16 bg-blue-50 rounded-2xl flex items-center justify-center text-brandRed mx-auto mb-8 transition-all group-hover:bg-brandRed group-hover:text-white group-hover:rotate-6">
                 <i class="fa-solid fa-layer-group text-2xl"></i>
               </div>
               <h5 class="font-bold text-slate-900 mb-3">Full Stack</h5>
               <p class="text-slate-500 text-sm mb-6">Become a 360-degree developer capable of total delivery.</p>
-              <div class="h-1 w-12 bg-red-100 mx-auto group-hover:w-20 group-hover:bg-brandRed transition-all"></div>
+              <div class="h-1 w-12 bg-blue-100 mx-auto group-hover:w-20 group-hover:bg-brandRed transition-all"></div>
             </a>
 
             <a href="course-data.html" class="group p-8 rounded-[2rem] border border-slate-100 bg-white card-hover text-center" data-aos="zoom-in" data-aos-delay="400">
-              <div class="w-16 h-16 bg-red-50 rounded-2xl flex items-center justify-center text-brandRed mx-auto mb-8 transition-all group-hover:bg-brandRed group-hover:text-white group-hover:rotate-6">
+              <div class="w-16 h-16 bg-blue-50 rounded-2xl flex items-center justify-center text-brandRed mx-auto mb-8 transition-all group-hover:bg-brandRed group-hover:text-white group-hover:rotate-6">
                 <i class="fa-solid fa-brain text-2xl"></i>
               </div>
               <h5 class="font-bold text-slate-900 mb-3">Data Science</h5>
               <p class="text-slate-500 text-sm mb-6">Analyze and interpret complex data to drive strategy.</p>
-              <div class="h-1 w-12 bg-red-100 mx-auto group-hover:w-20 group-hover:bg-brandRed transition-all"></div>
+              <div class="h-1 w-12 bg-blue-100 mx-auto group-hover:w-20 group-hover:bg-brandRed transition-all"></div>
             </a>
           </div>
         </div>
@@ -278,7 +278,7 @@
                 Join our upcoming batch and start your journey towards a rewarding career with expert guidance.
               </p>
               <div class="flex flex-wrap justify-center gap-6">
-                <a href="contact.html" class="bg-brandRed text-white px-12 py-5 rounded-full font-bold hover:bg-red-700 transition-all hover:scale-105 active:scale-95">Enroll Now</a>
+                <a href="contact.html" class="bg-brandRed text-white px-12 py-5 rounded-full font-bold hover:bg-blue-700 transition-all hover:scale-105 active:scale-95">Enroll Now</a>
                 <a href="courses.html" class="bg-white/10 text-white border border-white/20 px-12 py-5 rounded-full font-bold hover:bg-white/20 transition-all active:scale-95">Browse Courses</a>
               </div>
             </div>
@@ -300,9 +300,9 @@
               Empowering students through industry-focused training and reliable placement assistance since 2014. Located in the heart of Tirupati.
             </p>
             <div class="flex gap-4">
-              <a href="#" class="w-12 h-12 bg-slate-50 rounded-2xl flex items-center justify-center text-slate-400 hover:text-brandRed hover:bg-red-50 transition-all"><i class="fa-brands fa-facebook-f"></i></a>
-              <a href="#" class="w-12 h-12 bg-slate-50 rounded-2xl flex items-center justify-center text-slate-400 hover:text-brandRed hover:bg-red-50 transition-all"><i class="fa-brands fa-linkedin-in"></i></a>
-              <a href="#" class="w-12 h-12 bg-slate-50 rounded-2xl flex items-center justify-center text-slate-400 hover:text-brandRed hover:bg-red-50 transition-all"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" class="w-12 h-12 bg-slate-50 rounded-2xl flex items-center justify-center text-slate-400 hover:text-brandRed hover:bg-blue-50 transition-all"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#" class="w-12 h-12 bg-slate-50 rounded-2xl flex items-center justify-center text-slate-400 hover:text-brandRed hover:bg-blue-50 transition-all"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="#" class="w-12 h-12 bg-slate-50 rounded-2xl flex items-center justify-center text-slate-400 hover:text-brandRed hover:bg-blue-50 transition-all"><i class="fa-brands fa-instagram"></i></a>
             </div>
           </div>
           
